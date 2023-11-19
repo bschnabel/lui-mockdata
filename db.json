@@ -1,0 +1,236 @@
+{
+  "usernamerecovery": {},
+  "passwordrecovery": {},
+  "setpasswordwithtoken": {},
+  "User": [
+    {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "userName": "maxi123",
+      "userType": "local",
+      "name": {
+        "formatted": "Max Mustermann",
+        "familyName": "Mustermann",
+        "givenName": "Max"
+      },
+      "displayName": "Max Mustermann",
+      "dateOfBirth": "1991-06-04T00:00:00",
+      "gender": "1",
+      "employeeNumber": "12315",
+      "emails": "max@daasi.de",
+      "phoneNumbers": [
+        {
+          "value": "0711-751934"
+        },
+        {
+          "value": "0711-23455912"
+        }
+      ],
+      "mobileNumbers": [
+        {
+          "value": "+4915151915554"
+        }
+      ],
+      "address": {
+        "streetAddress": "Hauserstr. 15",
+        "postalCode": "72074",
+        "locality": "Tübingen"
+      },
+      "primarySource": "QUELLE1",
+      "secondarySource": [
+        {
+          "value": "QUELLE2"
+        },
+        {
+          "value": "QUELLE3"
+        }
+      ],
+      "primaryPrincipalName": "maxi123",
+      "secondaryPrincipalName": [
+        {
+          "value": "max.mustermann"
+        }
+      ],
+      "rpldmAgreement": [
+        {
+          "value": "Datenschutzbestimmungen"
+        },
+        {
+          "value": "AGB"
+        }
+      ],
+      "primaryOrganisationDN": "ou=Alfred-Wegner-Schule,ou=organizations,ou=data,ou=root-tenant,dc=didmos,dc=de",
+      "secondaryOrganisationDN": [
+        {
+          "value": "ou=Präsidium,ou=organizations,ou=data,ou=root-tenant,dc=didmos,dc=de"
+        }
+      ],
+      "active": true,
+      "domains": [
+        {
+          "value": "111",
+          "display": "Domäne D"
+        }
+      ],
+      "groups": [
+        {
+          "value": "222",
+          "display": "Grupps G"
+        }
+      ],
+      "adminAccess": true,
+      "roles": [
+        {
+          "value": "standarduser",
+          "display": "standarduser"
+        },
+        {
+          "value": "helpdesk",
+          "display": "Helpdesk"
+        }
+      ],
+      "meta": {
+        "lastLogin": "2023-11-16T14:33:05Z",
+        "operations": {
+          "entry": [
+            "read",
+            "write",
+            "delete",
+            "modify-add",
+            "modify-del",
+            "modify-replace",
+            "readHistory"
+          ],
+          "attributes": {}
+        },
+        "adminPermissions": ["user-list"]
+      }
+    }
+  ],
+  "Users-all": {
+    "startIndex": 0,
+    "itemsPerPage": 5,
+    "totalResults": 5,
+    "Resources": [
+      {
+        "name": {
+          "formatted": "Benedikt Schnabel",
+          "familyName": "Schnabel",
+          "givenName": "Benedikt"
+        },
+        "id": "1a685b9c-a775-4b5b-82de-19b576640b86",
+        "emails": [
+          {
+            "value": "benedikt.schnabel@daasi.de"
+          }
+        ],
+        "roles": [
+          {
+            "value": "standarduser",
+            "display": "standarduser"
+          }
+        ],
+        "tenant": "root-tenant",
+        "meta": {
+          "operations": {
+            "entry": ["read", "write", "delete"]
+          }
+        }
+      },
+      {
+        "name": {
+          "formatted": "David H\u00fcbner",
+          "familyName": "H\u00fcbner",
+          "givenName": "David"
+        },
+        "id": "38a7b1ca-ac4e-42bd-9b14-7a4a57423e47",
+        "emails": [
+          {
+            "value": "david.huebner@daasi.de"
+          }
+        ],
+        "roles": [
+          {
+            "value": "standarduser",
+            "display": "standarduser"
+          }
+        ],
+        "tenant": "root-tenant",
+        "meta": {
+          "operations": {
+            "entry": ["read", "write", "delete"]
+          }
+        }
+      },
+      {
+        "name": {
+          "formatted": "foo123 bas123",
+          "familyName": "bas123",
+          "givenName": "foo123"
+        },
+        "id": "d3c322a5-102c-48f8-a5eb-6f991c0288fd",
+        "emails": [
+          {
+            "value": "christopher.tomas@daasi.de"
+          }
+        ],
+        "roles": [
+          {
+            "value": "standarduser",
+            "display": "standarduser"
+          }
+        ],
+        "tenant": "root-tenant",
+        "meta": {
+          "operations": {
+            "entry": ["read", "write", "delete"]
+          }
+        }
+      },
+      {
+        "name": {
+          "formatted": "Michelangelo di Lodovico Buonarroti Simoni",
+          "familyName": "di Lodovico Buonarroti Simoni",
+          "givenName": "Michelangelo"
+        },
+        "id": "da6a0490-ab07-4ef8-8ed6-821401eaabe1",
+        "roles": [
+          {
+            "value": "standarduser",
+            "display": "standarduser"
+          }
+        ],
+        "tenant": "root-tenant",
+        "meta": {
+          "operations": {
+            "entry": ["read", "write", "delete"]
+          }
+        }
+      },
+      {
+        "name": {
+          "formatted": "Tenant4 Tester",
+          "familyName": "Tester",
+          "givenName": "Tenant4"
+        },
+        "id": "eaea04f2-86a2-4e95-8473-a0b6d63411e8",
+        "emails": [
+          {
+            "value": "david@daasi.de"
+          }
+        ],
+        "roles": [
+          {
+            "value": "e4a9637f-e53f-4236-bc0d-278a97b10c61",
+            "display": "standarduser"
+          }
+        ],
+        "tenant": "Test-Tenant-4",
+        "meta": {
+          "operations": {
+            "entry": ["read", "write", "delete"]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "/lui2_backend/usernamerecovery/": "/usernamerecovery",
+  "/lui2_backend/passwordrecovery/": "/passwordrecovery",
+  "/lui2_backend/setpasswordwithtoken/": "/setpasswordwithtoken",
+  "/lui2_backend/v2/Me": "/User/00000000-0000-0000-0000-000000000001",
+  "/lui2_backend/v2/User/?*": "/Users-all",
+  "/lui2_backend/v2/User/*": "/User/00000000-0000-0000-0000-000000000001"
+}
