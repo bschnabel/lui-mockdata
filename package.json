@@ -1,0 +1,13 @@
+{
+  "name": "lui-mockdata",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "json-server --routes routes.json db.json"
+  },
+  "private": true,
+  "dependencies": {
+    "json-server": "^0.17.1",
+  },
+  "devDependencies": {
+  }
+}
