@@ -2,7 +2,7 @@
   "name": "lui-mockdata",
   "version": "0.0.1",
   "scripts": {
-    "start": "json-server --port 80 --routes routes.json db.json"
+    "start": "json-server --port 10000 --routes routes.json db.json"
   },
   "private": true,
   "dependencies": {
